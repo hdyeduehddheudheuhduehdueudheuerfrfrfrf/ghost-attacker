@@ -353,7 +353,7 @@ def main():
 	parser = ArgumentParser(
         usage='./%(prog)s -t [target] -p [port] -t [number threads]',
         formatter_class=RawTextHelpFormatter,
-        prog='pyddos',
+        prog='ghost',
         description=cprint(title,'white',attrs=['bold']),
         epilog='''
 Example:
